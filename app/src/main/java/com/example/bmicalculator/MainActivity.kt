@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         else if (cal >= 18.5 && cal <= 24.9){
             img.setImageResource(R.drawable.normal)
         }
-        
+
         else if (cal < 18.5){
             img.setImageResource(R.drawable.under)
         }
